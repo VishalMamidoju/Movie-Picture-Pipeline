@@ -11,7 +11,7 @@ on:
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: frontend
-  EKS_CLUSTER_NAME: cluster
+  EKS_CLUSTER_NAME: cluster1
   REACT_APP_MOVIE_API_URL: ${{ vars.MOVIE_API_URL || 'http://localhost:5000' }}
 
 jobs:
